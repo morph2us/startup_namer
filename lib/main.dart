@@ -8,10 +8,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final wordPair = WordPair.random();
     return MaterialApp(
-      title: 'Welcome to Flutter',
+      title: 'Welcome to Flutter & Git connection',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Welcome to Flutter'),
+          title: Text('Welcome to Flutter & Git connection'),
         ),
         body: Center(
           child: Text(wordPair.asPascalCase),
